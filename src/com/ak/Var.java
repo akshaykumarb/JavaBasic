@@ -1,12 +1,21 @@
 package com.ak;
 
 public class Var {
+	
+	int ins_var=0; // instance variable 
+	
+	
+	public void localVar()
+	{
+		int local_var=0 ;// Local variable
+		
+	}
 
 	public static void main(String[] args) {
 	 
 		// Java type safe language - varibale should always be declared.
 		
-	
+	//local variables
 		long  l = 56867; // 8 bytes - for long range number 
 		
 		int a = 0; //4 bytes  - Can be used for long range number 
@@ -29,6 +38,8 @@ public class Var {
 		int i = (int)5.0; // explicit conversion 
 		
 		System.out.print(d1);
+		
+		
 
 	}
 
